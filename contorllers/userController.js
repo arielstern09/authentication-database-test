@@ -71,6 +71,8 @@ const loginUser = async (userData) => {
 need username, oldpassword, newpassword
 */
 const updatePassword = async (userData) => {
+
+    console.log("testput")
     try {
         const incomingUsername = userData.username;
         const incomingOldPassword = userData.oldPassword;
