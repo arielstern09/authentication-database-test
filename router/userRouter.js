@@ -30,7 +30,7 @@ router.post("/login", async (req, res) => {
       if (result) {
         res.json({
           message: "success",
-          payload: "Successfully logged in!"
+          payload: "Successfully logged in!!"
         });
       } else {
           throw "Login Failed"
